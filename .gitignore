@@ -1,0 +1,38 @@
+# Eclipse specific files
+/.classpath
+/.project
+/.settings/
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven specific files
+/target/
+*.pom.xml.releaseBackup
+*.pom.xml.tag
+release.properties
+
+# Gradle specific files
+/.gradle/
+/build/
+
+# Ignore temporary files and IDE configurations
+*.swp
+*.swo
+*.tmp
+*~
+/.DS_Store
+/.idea/
+/.vscode/
+/bin/
+
+# Operating system specific files
+Thumbs.db
+.DS_Store
+
+# Generated content and deployment files
+/webapp/WEB-INF/lib/
